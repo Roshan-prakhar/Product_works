@@ -1,5 +1,4 @@
 import React from 'react';
-import ActionItems from './ActionItems';
 
 function Sidebar({ currentView, setCurrentView, currentDev }) {
   const nextStepsMap = {
