@@ -1,0 +1,140 @@
+.team-table-container {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.team-table-container h2 {
+  margin: 0 0 20px 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1E293B;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.team-table th {
+  background: #F8FAFC;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #475569;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+  border-bottom: 2px solid #E2E8F0;
+}
+
+.team-table th:hover {
+  background: #E2E8F0;
+}
+
+.team-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #E2E8F0;
+  color: #374151;
+}
+
+.team-table tr:hover {
+  background: #EFF6FF;
+}
+
+.team-table tr:hover td {
+  color: #1E293B;
+}
+
+.name-cell {
+  padding: 8px 16px;
+}
+
+.developer-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2563EB, #1E40AF);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.name {
+  font-weight: 600;
+  color: #1E293B;
+  font-size: 0.9rem;
+}
+
+.role {
+  font-size: 0.8rem;
+  color: #6B7280;
+  margin-top: 2px;
+}
+
+.status-badge-good {
+  background: #D1FAE5;
+  color: #065F46;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.status-badge-attention {
+  background: #FFEDD5;
+  color: #EA580C;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.status-badge-critical {
+  background: #FEE2E2;
+  color: #DC2626;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .team-table-container {
+    padding: 16px;
+    overflow-x: auto;
+  }
+  
+  .team-table {
+    min-width: 600px;
+  }
+  
+  .developer-info {
+    gap: 8px;
+  }
+  
+  .avatar {
+    width: 32px;
+    height: 32px;
+    font-size: 0.7rem;
+  }
+}
