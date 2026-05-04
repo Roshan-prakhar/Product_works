@@ -144,5 +144,5 @@ npm start
 
 # Build for production
 npm run build
-| Live prototype link | ✅ Deployed | 'https://aquamarine-entremet-8e9efe.netlify.app` |
+| Live prototype link | ✅ Deployed | 'https://productworks-assignment.netlify.app/` |
 | Code link | ✅ GitHub | `https://github.com/Roshan-prakhar/Product_works/tree/developer` |
