@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A professional developer productivity dashboard that tracks key performance metrics, provides team comparisons, and offers actionable insights for engineering teams.",
   "private": false,
-  "homepage": "https://github.com/your-org/dev-productivity#readme",
+  "homepage": ".",
   "repository": {
     "type": "git",
     "url": "https://github.com/your-org/dev-productivity.git"
