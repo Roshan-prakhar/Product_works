@@ -123,7 +123,7 @@ src/
 
 ## 🚀 Live Demo
 
-**[https://aquamarine-entremet-8e9efe.netlify.app](https://aquamarine-entremet-8e9efe.netlify.app)**
+**[productworks.in](https://productworks-assignment.netlify.app/)**
 
 ---
 
