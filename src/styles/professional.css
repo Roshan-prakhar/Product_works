@@ -270,6 +270,26 @@ body {
   text-align: center;
 }
 
+/* Dark mode employee navigation */
+[data-theme="dark"] .employee-nav {
+  background: var(--gray-50);
+  border-color: var(--gray-200);
+}
+
+[data-theme="dark"] .nav-arrow {
+  background: var(--gray-200);
+  color: var(--gray-900);
+}
+
+[data-theme="dark"] .nav-arrow:hover {
+  background: var(--primary);
+  color: white;
+}
+
+[data-theme="dark"] .employee-name-current {
+  color: var(--gray-900);
+}
+
 /* Employee Card */
 .employee-card {
   background: white;
